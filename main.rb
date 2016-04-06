@@ -21,8 +21,9 @@ get '/reverser' do
 	erb :reverser
 end
 
-get 'word-reverser-result' do
-	erb :word_reverser_result
+get 'word-reverser-results' do
+	@phrase = params['phrase']
+	erb :word_reverser_results
 end
 
 ############################################
