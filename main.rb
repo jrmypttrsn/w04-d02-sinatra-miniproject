@@ -17,9 +17,13 @@ get '/temp-converter-results' do
 	erb :temp_converter_results
 end
 
+get '/reverser' do
+	erb :reverser
+end
 
-
-
+get 'word-reverser-result' do
+	erb :word_reverser_result
+end
 
 ############################################
 def temperature_conversion(temperature, units)
