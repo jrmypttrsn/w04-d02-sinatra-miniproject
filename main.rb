@@ -1,5 +1,6 @@
 require "pry"
 require "sinatra"
+require "sinatra/reloader"
 
 # Your routes go here:
 
